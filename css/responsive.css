@@ -87,3 +87,18 @@
   }
 
 }
+
+/*****LARGE MOBILE 576 PX******/
+
+
+@media (min-width:576px) {
+
+  p.clearfix img{
+    float: left;
+  }
+
+  .social-networks button {
+    width: 130px;
+  }
+
+}
