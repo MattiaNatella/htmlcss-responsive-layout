@@ -1,1 +1,49 @@
 /* Soluzione qui */
+/********TABLET******/
+
+@media (min-width:769px) {
+ 
+  #topbar {
+    justify-content: flex-start
+  }
+
+  main {
+
+    padding: 40px;
+  
+  }
+
+  .recipe-origin {
+    display: inline;
+  }
+
+  .recipe-title {
+    font-size: 1.2rem;
+  }
+
+  .quick-notes ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes ul li{
+    
+    width: calc(100% / 3)
+  }
+
+  .social-networks button {
+    width: 120px;
+  }
+
+  .ads {
+    display: block;
+  }
+  
+  p.clearfix img{
+    float: left;
+  }
+}
+
+
+
+/********MOBILE******/
