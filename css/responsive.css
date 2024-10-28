@@ -32,7 +32,7 @@
   }
 
   .social-networks button {
-    width: 120px;
+    width: 130px;
   }
 
   .ads {
@@ -46,4 +46,44 @@
 
 
 
-/********MOBILE******/
+/********DESKTOP*******/
+
+@media (min-width:993px) {
+
+  .recipe-title {
+    font-size: 1.4rem;
+  }
+
+  .quick-notes ul{
+    display: block;
+  }
+
+  .recipe-card {
+    display: flex;
+  }
+
+  .recipe-video {
+    width: 60%;
+  }
+
+  .recipe-info{
+    width: 40%
+
+  }
+
+  .recipe-info .quick-notes li{
+    display: block;
+    width: 100%;
+  }
+
+  .social-networks .label {
+    display: inline;
+    
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
