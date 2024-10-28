@@ -41,6 +41,7 @@
   
   p.clearfix img{
     float: left;
+    margin-right: 10px;
   }
 }
 
@@ -100,5 +101,8 @@
   .social-networks button {
     width: 130px;
   }
-
+  
+footer {
+  text-align: left;
+}
 }
